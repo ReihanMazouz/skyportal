@@ -47,10 +47,10 @@
   filters: ['bessellux', 'bessellb', 'bessellv', 'bessellr',
             'besselli']
 - band: optical
-  name: CFH12k
+  name: ZTF
   telescope_id: =P48
   type: imager
-  filters: ['ztfg', 'ztfr']
+  filters: ['ztfg', 'ztfr', 'ztfi']
 - band: optical
   name: ISIS
   telescope_id: =WHT
