@@ -698,7 +698,7 @@ def add_followup_request_using_frontend_and_verify_IOO(
     )
 
 
-# @pytest.mark.flaky(reruns=2)
+@pytest.mark.flaky(reruns=2)
 @pytest.mark.skipif(not swift_isonline, reason="UVOT server down")
 def test_submit_new_followup_request_UVOT(
     driver, super_admin_user, public_source, super_admin_token, public_group
