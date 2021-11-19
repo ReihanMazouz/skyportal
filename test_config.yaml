@@ -70,6 +70,7 @@ test_server:
     /node_agent2/node_agent: http://161.72.57.3:8080 # LT
     /api/requestgroups/: https://observe.lco.global # LCO
     /api/triggers/ztf: http://skipper.caltech.edu:4000 # ZTF
+    /toop/submit_json.php: https://www.swift.psu.edu # Swift
 
 app:
   lt_host: localhost
@@ -81,3 +82,6 @@ app:
     protocol: http
     host: localhost
     port: 64502
+  swift_protocol: http
+  swift_host: localhost
+  swift_port: 64502
