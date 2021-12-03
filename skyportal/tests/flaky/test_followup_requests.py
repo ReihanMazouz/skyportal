@@ -52,10 +52,10 @@ else:
     ztf_isonline = True
 
 
-url = "https://www.swift.psu.edu/toop/submit_json.php"
+swift_url = "https://www.swift.psu.edu/toop/submit_json.php"
 swift_isonline = False
 try:
-    requests.get(url, timeout=5)
+    requests.get(swift_url, timeout=5)
 except requests.exceptions.ConnectTimeout:
     pass
 else:
