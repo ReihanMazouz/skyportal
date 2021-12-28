@@ -503,3 +503,11 @@
   nickname: CNEOST
   skycam_link: null
   =id: CNEOST
+- diameter: 0.5
+  elevation: 3055.0
+  lat: 20.7204
+  lon: -156.1552
+  name: Asteroid Terrestrial-impact Last Alert System
+  nickname: ATLAS
+  skycam_link: null
+  =id: ATLAS

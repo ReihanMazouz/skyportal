@@ -341,3 +341,8 @@
   type: imager
   # todo: add unfiltered
   filters: []
+- band: optical
+  name: ATLAS
+  telescope_id: =ATLAS
+  type: imager
+  filters: ['sdssg', 'sdssr']
